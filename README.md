@@ -1,59 +1,233 @@
-<p align="center"><a href="https://laravel.com" target="_blank"><img src="https://raw.githubusercontent.com/laravel/art/master/logo-lockup/5%20SVG/2%20CMYK/1%20Full%20Color/laravel-logolockup-cmyk-red.svg" width="400" alt="Laravel Logo"></a></p>
+# <img src="https://raw.githubusercontent.com/TheSourav-001/DIU-Hub/main/public/logo.png" width="48" align="center" /> DIU-Hub - Academic Resource Sharing Platform
 
-<p align="center">
-<a href="https://github.com/laravel/framework/actions"><img src="https://github.com/laravel/framework/workflows/tests/badge.svg" alt="Build Status"></a>
-<a href="https://packagist.org/packages/laravel/framework"><img src="https://img.shields.io/packagist/dt/laravel/framework" alt="Total Downloads"></a>
-<a href="https://packagist.org/packages/laravel/framework"><img src="https://img.shields.io/packagist/v/laravel/framework" alt="Latest Stable Version"></a>
-<a href="https://packagist.org/packages/laravel/framework"><img src="https://img.shields.io/packagist/l/laravel/framework" alt="License"></a>
-</p>
+<div align="center">
 
-## About Laravel
+[![Visitors](https://api.visitorbadge.io/api/visitors?path=TheSourav-001%2FDIU-Hub&labelColor=%234F46E5&countColor=%237C3AED&style=flat-square)](https://visitorbadge.io/status?path=TheSourav-001%2FDIU-Hub)
+[![PHP Version](https://img.shields.io/badge/PHP-%3E%3D%208.2-777bb4?style=flat-square&logo=php)](https://www.php.net/)
+[![Laravel](https://img.shields.io/badge/Laravel-11-FF2D20?style=flat-square&logo=laravel)](https://laravel.com/)
+[![MySQL](https://img.shields.io/badge/MySQL-Database-4479A1?style=flat-square&logo=mysql)](https://www.mysql.com/)
+[![License: MIT](https://img.shields.io/badge/License-MIT-yellow.svg?style=flat-square)](https://opensource.org/licenses/MIT)
 
-Laravel is a web application framework with expressive, elegant syntax. We believe development must be an enjoyable and creative experience to be truly fulfilling. Laravel takes the pain out of development by easing common tasks used in many web projects, such as:
+<img src="https://readme-typing-svg.herokuapp.com?font=Plus+Jakarta+Sans&weight=700&size=24&pause=1000&color=4F46E5&center=true&vCenter=true&width=500&lines=Academic+Resource+Sharing;Knowledge+Exchange;Lecture+Notes+%26+Guides;Empowering+DIU+Students" alt="Typing SVG" />
 
-- [Simple, fast routing engine](https://laravel.com/docs/routing).
-- [Powerful dependency injection container](https://laravel.com/docs/container).
-- Multiple back-ends for [session](https://laravel.com/docs/session) and [cache](https://laravel.com/docs/cache) storage.
-- Expressive, intuitive [database ORM](https://laravel.com/docs/eloquent).
-- Database agnostic [schema migrations](https://laravel.com/docs/migrations).
-- [Robust background job processing](https://laravel.com/docs/queues).
-- [Real-time event broadcasting](https://laravel.com/docs/broadcasting).
+</div>
 
-Laravel is accessible, powerful, and provides tools required for large, robust applications.
+---
 
-## Learning Laravel
+## 🌟 Overview
 
-Laravel has the most extensive and thorough [documentation](https://laravel.com/docs) and video tutorial library of all modern web application frameworks, making it a breeze to get started with the framework. You can also check out [Laravel Learn](https://laravel.com/learn), where you will be guided through building a modern Laravel application.
+**DIU-Hub** is a state-of-the-art, feature-rich academic platform designed for the **Daffodil International University (DIU)** community. It bridges the gap between students and peer-shared learning materials, using a centralized repository for lecture notes, question banks, and course resources.
 
-If you don't feel like reading, [Laracasts](https://laracasts.com) can help. Laracasts contains thousands of video tutorials on a range of topics including Laravel, modern PHP, unit testing, and JavaScript. Boost your skills by digging into our comprehensive video library.
+![Project Banner](https://raw.githubusercontent.com/TheSourav-001/DIU-Hub/main/public/banner.png)
 
-## Laravel Sponsors
+### 🔴 The Problem
+Students often struggle to find organized, course-specific study materials, relying on scattered social media groups or outdated physical copies which are difficult to search through.
 
-We would like to extend our thanks to the following sponsors for funding Laravel development. If you are interested in becoming a sponsor, please visit the [Laravel Partners program](https://partners.laravel.com).
+### 🟢 The Solution (DIU-Hub)
+A centralized, secure, and real-time portal that organizes academic reports, verifies content through admin moderation, and rewards contributors through a premium-grade user experience.
 
-### Premium Partners
+---
 
-- **[Vehikl](https://vehikl.com)**
-- **[Tighten Co.](https://tighten.co)**
-- **[Kirschbaum Development Group](https://kirschbaumdevelopment.com)**
-- **[64 Robots](https://64robots.com)**
-- **[Curotec](https://www.curotec.com/services/technologies/laravel)**
-- **[DevSquad](https://devsquad.com/hire-laravel-developers)**
-- **[Redberry](https://redberry.international/laravel-development)**
-- **[Active Logic](https://activelogic.com)**
+## 🚀 Key Features
 
-## Contributing
+| | Feature | Description |
+|---|---|---|
+| 📦 | **Resource Management** | Advanced uploading with drag-and-drop support, categories, and real-time scannability. |
+| 🔍 | **Smart Search** | Powerful filtering by Course Code, Department, and Faculty with instant results. |
+| 🏆 | **Leaderboard** | "Top Contributors" tracking that rewards active sharers with community recognition. |
+| 🛡️ | **Enterprise Security** | Built on Laravel 11 with signed download URLs, CSRF protection, and Rate Limiting. |
+| 🔔 | **Smart Alerts** | Real-time notifications for system updates, approvals, and resource requests. |
+| 🔖 | **Bookmarks** | Save your most-needed study materials to your personal dashboard for quick access. |
 
-Thank you for considering contributing to the Laravel framework! The contribution guide can be found in the [Laravel documentation](https://laravel.com/docs/contributions).
+---
 
-## Code of Conduct
+## 🖼️ System Preview
 
-In order to ensure that the Laravel community is welcoming to all, please review and abide by the [Code of Conduct](https://laravel.com/docs/contributions#code-of-conduct).
+<div align="center">
 
-## Security Vulnerabilities
+| Dashboard Insights | Mobile Experience |
+| --- | --- |
+| ![Dashboard](https://raw.githubusercontent.com/TheSourav-001/DIU-Hub/main/public/previews/dashboard.png) | <img src="https://raw.githubusercontent.com/TheSourav-001/DIU-Hub/main/public/previews/mobile.png" width="280"> |
 
-If you discover a security vulnerability within Laravel, please send an e-mail to Taylor Otwell via [taylor@laravel.com](mailto:taylor@laravel.com). All security vulnerabilities will be promptly addressed.
+</div>
 
-## License
+---
 
-The Laravel framework is open-sourced software licensed under the [MIT license](https://opensource.org/licenses/MIT).
+## 🏗️ Architecture
+
+DIU-Hub follows a robust **Model-View-Controller (MVC)** architectural pattern using the **TALL Stack** for a reactive and scalable experience.
+
+```mermaid
+flowchart TD
+
+A[Student Browser] -->|HTTP Request| B[Vite / Web Server]
+B -->|Route Handling| C[Laravel 11 Controller]
+
+C -->|Fetch / Save Data| D[Eloquent Model]
+D -->|SQL Queries| E[(MySQL Database)]
+
+C -->|Render Dynamic UI| F[Blade Views + Alpine.js]
+F -->|Responsive HTML| A
+
+subgraph Security Layer
+G[Signed URLs / Download Guard]
+H[CSRF Protection]
+I[Rate Limiter]
+J[Secure Session (Breeze)]
+end
+
+C -. Security Checks .-> G
+C -. Security Checks .-> H
+C -. Security Checks .-> I
+C -. Security Checks .-> J
+```
+
+---
+
+## 📊 Visual Documentation
+
+### 🗄️ Database ER Diagram
+```mermaid
+erDiagram
+    USERS ||--o{ RESOURCES : uploads
+    USERS ||--o{ BOOKMARKS : saves
+    USERS ||--o{ DOWNLOADS : performs
+    USERS ||--o{ RATINGS : gives
+    USERS ||--o{ NOTIFICATIONS : receives
+    USERS ||--o{ RESOURCE_REQUESTS : makes
+    DEPARTMENTS ||--o{ COURSES : contains
+    DEPARTMENTS ||--o{ RESOURCES : classifies
+    COURSES ||--o{ RESOURCES : categorizes
+    RESOURCES ||--o{ TAGS : has_many
+    RESOURCES ||--o{ RATINGS : receives
+
+    USERS {
+        int id PK
+        string name
+        string email
+        string student_id
+        int points
+    }
+    RESOURCES {
+        int id PK
+        int user_id FK
+        string title
+        string file_path
+        string type
+        int department_id FK
+        string status
+    }
+    RESOURCE_REQUESTS {
+        int id PK
+        int user_id FK
+        string title
+        string description
+        string status
+    }
+```
+
+### 🛣️ User Flow
+```mermaid
+graph LR
+    Start((Start)) --> Landing[Home Page]
+    Landing --> Auth{Authenticated?}
+    Auth -- No --> Register[Register / Login]
+    Auth -- Yes --> Dash[Student Dashboard]
+    Register --> Dash
+    Dash --> Upload[Upload Resource]
+    Dash --> Search[Explore Materials]
+    Dash --> Request[Request Resource]
+    Search --> Download[Signed Download]
+    Search --> Bookmark[Save to Library]
+```
+
+### 🔁 Resource Approval Process
+```mermaid
+stateDiagram-v2
+    [*] --> Uploading
+    Uploading --> PendingApproval: Initial Upload
+    PendingApproval --> active: Admin Approved
+    PendingApproval --> Rejected: Violated Guidelines
+    active --> Downloadable: Available for Students
+    active --> Archived: Outdated Material
+    Rejected --> [*]: Resource Deleted
+```
+
+### 🔐 Secure Download Flow
+```mermaid
+sequenceDiagram
+    participant S as Student
+    participant C as Controller
+    participant M as Middleware(Signed)
+    participant F as File Storage
+
+    S->>C: Click Download
+    C->>C: Generate Temporarily Signed URL
+    C-->>S: Redirect with Signature
+    S->>M: Request with Signature
+    M-->>C: Signature Valid
+    C->>F: Fetch Protected File
+    F-->>S: Secure File Stream
+```
+
+---
+
+## 🛡️ Security Hardening
+
+- **CSRF Protection**: Native Laravel tokens for all state-changing interactions.
+- **Signed URLs**: Downloads are protected with time-limited signed signatures to prevent direct linking.
+- **Rate Limiting**: Integrated anti-spam mechanisms for uploads and requests (Throttle middleware).
+- **Secure Sessions**: HTTP-Only and SameSite cookie policies via Laravel Session layer.
+- **XSS Prevention**: Automated Blade output encoding.
+- **SQLi Protection**: Full abstraction via Eloquent ORM and Query Builder.
+
+---
+
+## 🛠️ Installation Guide
+
+### Prerequisites
+- PHP 8.2+
+- MySQL 8.0+
+- Composer & NPM
+
+### Setup Steps
+1. **Clone the repository**:
+   ```bash
+   git clone https://github.com/TheSourav-001/DIU-Hub.git
+   ```
+2. **Install Dependencies**:
+   ```bash
+   composer install
+   npm install
+   ```
+3. **Environment Setup**:
+   - Copy `.env.example` to `.env`.
+   - Configure your `DB_DATABASE`, `DB_USERNAME`, and `DB_PASSWORD`.
+   ```bash
+   php artisan key:generate
+   ```
+4. **Database Migration**:
+   ```bash
+   php artisan migrate --seed
+   ```
+5. **Compile Assets & Launch**:
+   ```bash
+   npm run dev
+   # Open another terminal
+   php artisan serve
+   ```
+
+---
+
+## 👨‍💻 Developed By
+
+**Sourav Dipto Apu**  
+*Full-Stack Developer & UI/UX Enthusiast*
+
+[![LinkedIn](https://img.shields.io/badge/LinkedIn-Profile-blue?style=flat-square&logo=linkedin)](https://linkedin.com/in/thesourav)
+[![Github](https://img.shields.io/badge/GitHub-Profile-black?style=flat-square&logo=github)](https://github.com/TheSourav-001)
+
+---
+<div align="center">
+  <sub>Built with ❤️ for the DIU Community</sub>
+</div>
