@@ -1,4 +1,4 @@
-# <img src="https://raw.githubusercontent.com/TheSourav-001/DIU-Hub/main/public/favicon.ico" width="48" align="center" /> DIU-Hub - Academic Resource Sharing Platform
+#    <div align="center">            DIU-Hub - Academic Resource Sharing Platform
 
 <div align="center">
 
@@ -221,12 +221,12 @@ sequenceDiagram
 ## 👨‍💻 Developed By
 
 **Sourav Dipto Apu**  
-*Full-Stack Developer & UI/UX Enthusiast*
+*Developer & QA Enthusiast*
 
 [![LinkedIn](https://img.shields.io/badge/LinkedIn-Profile-blue?style=flat-square&logo=linkedin)](https://linkedin.com/in/thesourav)
 [![Github](https://img.shields.io/badge/GitHub-Profile-black?style=flat-square&logo=github)](https://github.com/TheSourav-001)
 
 ---
 <div align="center">
-  <sub>Built with ❤️ for the DIU Community</sub>
+  <sub>Built for the DIU Community</sub>
 </div>
