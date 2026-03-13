@@ -18,7 +18,7 @@
 
 **DIU-Hub** is a state-of-the-art, feature-rich academic platform designed for the **Daffodil International University (DIU)** community. It bridges the gap between students and peer-shared learning materials, using a centralized repository for lecture notes, question banks, and course resources.
 
-![Project Banner](https://via.placeholder.com/1200x400/4F46E5/FFFFFF?text=DIU-Hub+-+Academic+Resource+Sharing)
+![Project Banner](https://placehold.co/1200x400/4F46E5/FFF?text=DIU-Hub+-+Academic+Resource+Sharing)
 
 ### 🔴 The Problem
 Students often struggle to find organized, course-specific study materials, relying on scattered social media groups or outdated physical copies which are difficult to search through.
@@ -47,7 +47,7 @@ A centralized, secure, and real-time portal that organizes academic reports, ver
 
 | Dashboard Insights | Mobile Experience |
 | --- | --- |
-| ![Dashboard](https://via.placeholder.com/800x600/4F46E5/FFFFFF?text=Dashboard+Preview) | <img src="https://via.placeholder.com/280x600/4F46E5/FFFFFF?text=Mobile+UI" width="280"> |
+| ![Dashboard](https://placehold.co/800x600/4F46E5/FFF?text=Dashboard+Preview) | <img src="https://placehold.co/280x600/4F46E5/FFF?text=Mobile+UI" width="280"> |
 
 </div>
 
@@ -68,11 +68,11 @@ D -->|SQL Queries| E[(MySQL Database)]
 C -->|Render Dynamic UI| F[Blade Views + Alpine.js]
 F -->|Responsive HTML| A
 
-subgraph Security Layer
-G[Signed URLs / Download Guard]
-H[CSRF Protection]
-I[Rate Limiter]
-J[Secure Session (Breeze)]
+subgraph "Security Layer"
+    G["Signed URLs / Download Guard"]
+    H["CSRF Protection"]
+    I["Rate Limiter"]
+    J["Secure Session (Breeze)"]
 end
 
 C -. Security Checks .-> G
