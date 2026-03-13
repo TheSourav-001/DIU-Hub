@@ -1,4 +1,4 @@
-# <img src="https://raw.githubusercontent.com/TheSourav-001/DIU-Hub/main/public/logo.png" width="48" align="center" /> DIU-Hub - Academic Resource Sharing Platform
+# <img src="https://raw.githubusercontent.com/TheSourav-001/DIU-Hub/main/public/favicon.ico" width="48" align="center" /> DIU-Hub - Academic Resource Sharing Platform
 
 <div align="center">
 
@@ -18,7 +18,7 @@
 
 **DIU-Hub** is a state-of-the-art, feature-rich academic platform designed for the **Daffodil International University (DIU)** community. It bridges the gap between students and peer-shared learning materials, using a centralized repository for lecture notes, question banks, and course resources.
 
-![Project Banner](https://raw.githubusercontent.com/TheSourav-001/DIU-Hub/main/public/banner.png)
+![Project Banner](https://via.placeholder.com/1200x400/4F46E5/FFFFFF?text=DIU-Hub+-+Academic+Resource+Sharing)
 
 ### 🔴 The Problem
 Students often struggle to find organized, course-specific study materials, relying on scattered social media groups or outdated physical copies which are difficult to search through.
@@ -47,7 +47,7 @@ A centralized, secure, and real-time portal that organizes academic reports, ver
 
 | Dashboard Insights | Mobile Experience |
 | --- | --- |
-| ![Dashboard](https://raw.githubusercontent.com/TheSourav-001/DIU-Hub/main/public/previews/dashboard.png) | <img src="https://raw.githubusercontent.com/TheSourav-001/DIU-Hub/main/public/previews/mobile.png" width="280"> |
+| ![Dashboard](https://via.placeholder.com/800x600/4F46E5/FFFFFF?text=Dashboard+Preview) | <img src="https://via.placeholder.com/280x600/4F46E5/FFFFFF?text=Mobile+UI" width="280"> |
 
 </div>
 
@@ -59,9 +59,8 @@ DIU-Hub follows a robust **Model-View-Controller (MVC)** architectural pattern u
 
 ```mermaid
 flowchart TD
-
-A[Student Browser] -->|HTTP Request| B[Vite / Web Server]
-B -->|Route Handling| C[Laravel 11 Controller]
+    A[Student Browser] -->|HTTP Request| B[Vite / Web Server]
+    B -->|Route Handling| C[Laravel 11 Controller]
 
 C -->|Fetch / Save Data| D[Eloquent Model]
 D -->|SQL Queries| E[(MySQL Database)]
@@ -158,7 +157,7 @@ stateDiagram-v2
 sequenceDiagram
     participant S as Student
     participant C as Controller
-    participant M as Middleware(Signed)
+    participant M as Middleware_Signed
     participant F as File Storage
 
     S->>C: Click Download
