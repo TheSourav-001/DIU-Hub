@@ -1,0 +1,37 @@
+services:
+  - type: web
+    name: diu-hub
+    runtime: php
+    plan: free
+    buildCommand: ./build.sh
+    startCommand: apache2-foreground # Or 'php artisan serve --host=0.0.0.0 --port=$PORT' if using a different runtime
+    envVars:
+      - key: APP_ENV
+        value: production
+      - key: APP_DEBUG
+        value: false
+      - key: APP_URL
+        fromService:
+          type: web
+          name: diu-hub
+          property: host
+      - key: DB_CONNECTION
+        value: pgsql
+      - key: DB_URL
+        fromDatabase:
+          name: diu-hub-db
+          property: connectionString
+      - key: APP_KEY
+        generateValue: true
+      - key: LOG_CHANNEL
+        value: stderr
+      - key: SESSION_DRIVER
+        value: database
+      - key: CACHE_STORE
+        value: database
+
+databases:
+  - name: diu-hub-db
+    plan: free
+    databaseName: diuhub
+    user: diuhub_user
